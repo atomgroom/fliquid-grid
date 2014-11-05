@@ -65,6 +65,14 @@ Use a media query as mixin with the variables that I have setup to create your o
 }
 ```
 
+#### Reversing
+By placing the class name "reverse" with a "row class" you can reverse the order of the columns within that element.
+
+```
+	<section class="row reverse">
+	</section>
+```
+
 #### Grid Helpers
 
 I have worked with a lot of different grid systems and one thing that I did not like is padding implementations. I discovered that I could easily make a mixin with variables and then add that semantically to each class as needed.
