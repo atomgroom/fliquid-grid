@@ -6,8 +6,8 @@
         <title>Fliquid Grid</title>
         <meta name="description" content="Design without set containers. Design for any viewport.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet/less" href="/fliquid-grid/demo/less/fliquid-grid.less">
-        <script type="text/javascript" src="/fliquid-grid/demo/js/less.min.js" ></script>
+        <link rel="stylesheet/less" href="/demo/less/fliquid-grid.less">
+        <script type="text/javascript" src="/demo/js/less.min.js" ></script>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
     </head>
     <body>
@@ -136,60 +136,87 @@
             <h2>Nesting!</h2> 
             <section class="row">
                 <section class="col--1-of-1">
+                    <section class="row">
+
                     <section class="col--1-of-12">
-                        <section class="col--1-of-2"></section>
-                        <section class="col--1-of-2"></section>
+                        <section class="row">
+                            <section class="col--1-of-2 nested"></section>
+                            <section class="col--1-of-2 nested"></section>
+                        </section>
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--2-of-3"></section>
-                        <section class="col--1-of-3"></section>
+                        <section class="row">
+                            <section class="col--2-of-3 nested"></section>
+                            <section class="col--1-of-3 nested"></section>
+                        </section>
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--3-of-4"></section>
-                        <section class="col--1-of-4"></section>  
+                        <section class="row">
+                            <section class="col--3-of-4 nested"></section>
+                            <section class="col--1-of-4 nested"></section>
+                        </section> 
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--4-of-5"></section>
-                        <section class="col--1-of-5"></section>             
+                        <section class="row">
+                            <section class="col--4-of-5 nested"></section>
+                            <section class="col--1-of-5 nested"></section>
+                        </section>             
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--5-of-6"></section>
-                        <section class="col--1-of-6"></section>                         
+                        <section class="row">
+                            <section class="col--5-of-6 nested"></section>
+                            <section class="col--1-of-6 nested"></section>
+                        </section>                        
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--6-of-7"></section>
-                        <section class="col--1-of-7"></section>                         
+                        <section class="row">
+                            <section class="col--6-of-7 nested"></section>
+                            <section class="col--1-of-7 nested"></section>
+                        </section>                         
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--7-of-8"></section>
-                        <section class="col--1-of-8"></section> 
+                        <section class="row">
+                            <section class="col--7-of-8 nested"></section>
+                            <section class="col--1-of-8 nested"></section>
+                        </section>
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--3-of-9"></section>
-                        <section class="col--3-of-9"></section>
-                        <section class="col--3-of-9"></section> 
+                        <section class="row">
+                            <section class="col--3-of-9 nested"></section>
+                            <section class="col--3-of-9 nested"></section>
+                            <section class="col--3-of-9 nested"></section>
+                        </section>
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--2-of-10"></section> 
-                        <section class="col--2-of-10"></section>
-                        <section class="col--2-of-10"></section>
-                        <section class="col--2-of-10"></section>
-                        <section class="col--2-of-10"></section> 
+                        <section class="row">
+                            <section class="col--2-of-10 nested"></section> 
+                            <section class="col--2-of-10 nested"></section>
+                            <section class="col--2-of-10 nested"></section>
+                            <section class="col--2-of-10 nested"></section>
+                            <section class="col--2-of-10 nested"></section>
+                        </section> 
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--8-of-11"></section> 
-                        <section class="col--3-of-11"></section>                       
+                        <section class="row">
+                            <section class="col--8-of-11 nested"></section> 
+                            <section class="col--3-of-11 nested"></section>
+                        </section>                      
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--2-of-12"></section> 
-                        <section class="col--10-of-12"></section>                   
+                        <section class="row">
+                            <section class="col--2-of-12 nested"></section> 
+                            <section class="col--10-of-12 nested"></section>
+                        </section>                  
                     </section>
                     <section class="col--1-of-12">
-                        <section class="col--11-of-12"></section> 
-                        <section class="col--1-of-12"></section>       
+                        <section class="row">
+                            <section class="col--11-of-12 nested"></section> 
+                            <section class="col--1-of-12 nested"></section>
+                        </section>       
                     </section>
+                  </section>  
                 </section>
-            </section>                             
+            </section>                            
         </main>
 
     </body>
