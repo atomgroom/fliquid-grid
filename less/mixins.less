@@ -1,0 +1,52 @@
+// grid mixins
+.grid-column(@columns, @total) {
+  -webkit-flex-basis: percentage(@columns / @total);
+  -ms-flex-preferred-size: percentage(@columns / @total);
+  flex-basis: percentage(@columns / @total);
+  max-width: percentage(@columns / @total);    
+  .col;
+}
+// Use this mixin to stop flex growing or shrinking and to display as a block level to fill viewport
+.grid-fill {
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0; 
+}
+// grid helpers 
+.b-padding--horz (@left, @right) {
+  padding-left: @left;
+  padding-right: @right;
+}
+.b-padding--vert(@top, @bottom) {
+  padding-top: @top;
+  padding-bottom: @bottom;
+}
+.responsive-media {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+// Vertical Align 
+.vertical-align {
+  display: table;
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+// Reverse the column order 
+.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-flex-wrap: row-reverse;
+  -ms-flex-wrap: row-reverse;
+  flex-wrap: row-reverse;
+}
