@@ -1,11 +1,11 @@
 
-![](http://atomgroomdesign.github.io/fliquid-grid/img/fliquid-Grid-Logo.png)
+![](http://atomgroom.github.io/fliquid-grid/img/fliquid-Grid-Logo.png)
 
 # Fliquid Grid - A grid with no constraints.
 
 ### Fliquid Grid is Liquid Grid's Futuristic Brother - Built with Flexbox & LESS
 
-The Fliquid Grid system was to designed fill the viewport and to flex evenly with it. Rather than definining random breakpoints or set widths, Fliquid Grid aims get rid of the entire idea of fixed layouts. Fliquid Grid might is an alternative to [Liquid Grid](http://atomgroomdesign.github.io/liquid-grid/) that utilizes Flexbox
+The Fliquid Grid system was to designed fill the viewport and to flex evenly with it. Rather than definining random breakpoints or set widths, Fliquid Grid aims get rid of the entire idea of fixed layouts. Fliquid Grid might is an alternative to [Liquid Grid](http://atomgroom.github.io/liquid-grid/) that utilizes Flexbox
 
 Fliquid Grid is a _side project_ of [Atom Groom](http://www.atomgroom.com). I will to the best of my ability work to fix bugs and support requests.  As an open-source project you are highly encouraged to contribute to the project.  I wrote a [blog article](http://www.atomgroom.com/thoughts/the-return-of-full-width-design) about this vision.  Please read it to ensure your contributions and requests are inline with the goals of this project.
 
@@ -16,16 +16,16 @@ The Fliquid Grid highlights:
 *   Semantic mixins - you decide the column ratios
 *   Nestable
 *   You control breakpoints
-*   Check out a [live demo here](http://atomgroomdesign.github.io/liquid-grid/demo/).
+*   Check out a [live demo here](http://atomgroom.github.io/liquid-grid/demo/).
 
 
 * * *
 
-### Project Setup 
+### Project Setup
 
 * Clone or download Fliquid Grid LESS files locally
 * Setup LESS Build (your choice on how you do this - Grunt, Gulp, CDN JS, etc.)
-* Include the compiled LESS or CSS in your project's < head > 
+* Include the compiled LESS or CSS in your project's < head >
 * Start coding!
 
 * * *
@@ -91,7 +91,7 @@ I found that any particular site or app that I was working on had similar uses o
 
 #### Vertical Centering
 
-Add the mixin as displayed below. I use the display: table and table cell technique to achieve vertical centering. 
+Add the mixin as displayed below. I use the display: table and table cell technique to achieve vertical centering.
 
 ```
 .class-name {
@@ -101,7 +101,7 @@ Add the mixin as displayed below. I use the display: table and table cell techni
 
 #### Horizontal Centering
 
-Add the mixin as displayed below. 
+Add the mixin as displayed below.
 
 ```
 .class-name {
@@ -151,19 +151,19 @@ To insert a flexible Google Map into a column, place a containing DIV around the
 
 ### Awesome GIF Demo
 
-![screen cast demo of liquid grid](http://atomgroomdesign.github.io/fliquid-grid/img/liquid-grid-screencast.gif)
+![screen cast demo of liquid grid](http://atomgroom.github.io/fliquid-grid/img/liquid-grid-screencast.gif)
 
 * * *
 
 ### Live Demo
-Check out a [live demo here](http://atomgroomdesign.github.io/fliquid-grid/demo/).
+Check out a [live demo here](http://atomgroom.github.io/fliquid-grid/demo/).
 
 * * *
 
 
 #### Author
 
-This project is maintained by [Atom Groom](https://github.com/atomgroomdesign)
+This project is maintained by [Atom Groom](https://github.com/atomgroom)
 
 * * *
 
@@ -173,4 +173,3 @@ Copyright 2014 Atom Groom.
 
 Licensed under the MIT License:
 http://opensource.org/licenses/MIT
-    
